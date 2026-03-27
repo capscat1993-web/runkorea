@@ -9,7 +9,7 @@ Desktop.ini
 *.swp
 *.swo
 
-# RunKorea — API 키는 .env에만 두고, js/config.js는 npm run config 로 생성
+# RunKorea — API 키는 .env에만 둠. js/config.js는 로컬은 npm run config, Vercel은 빌드에서 생성(GOOGLE_MAPS_API_KEY)
 .env
 js/config.js
 

@@ -3,9 +3,10 @@
   "private": true,
   "scripts": {
     "config": "node scripts/build-config.js",
+    "build": "node scripts/build-config.js",
     "postinstall": "node scripts/build-config.js"
   },
-  "devDependencies": {
+  "dependencies": {
     "dotenv": "^16.4.7"
   }
 }
