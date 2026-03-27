@@ -1,0 +1,181 @@
+/* ============================================================
+   RunKorea — Responsive Stylesheet
+   Breakpoints: 1024px (tablet), 768px (mobile)
+   ============================================================ */
+
+/* ---- Tablet (≤ 1024px) ---- */
+@media (max-width: 1024px) {
+  .courses-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .modal-body {
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  .modal-media {
+    width: 100%;
+    border-left: none;
+    border-top: 1px solid #E2E8F0;
+    height: 360px;
+  }
+
+  .modal-map-wrap {
+    width: 100%;
+    height: 100%;
+  }
+
+  #main-map {
+    height: 400px;
+  }
+
+  .filter-inner {
+    gap: 16px;
+  }
+}
+
+/* ---- Mobile (≤ 768px) ---- */
+@media (max-width: 768px) {
+  /* Header */
+  .header-nav {
+    display: none;
+  }
+
+  .header-inner {
+    padding: 0 16px;
+  }
+
+  /* Hero */
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-desc {
+    font-size: 0.9rem;
+  }
+
+  .city-buttons {
+    gap: 8px;
+  }
+
+  .city-btn {
+    padding: 8px 18px;
+    font-size: 0.85rem;
+  }
+
+  /* Filter */
+  .filter-section {
+    top: 64px;
+  }
+
+  .filter-inner {
+    padding: 0 16px;
+    gap: 12px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 4px;
+  }
+
+  .filter-group {
+    flex-shrink: 0;
+  }
+
+  .filter-group input[type="range"] {
+    width: 120px;
+  }
+
+  .search-wrap input {
+    min-width: 140px;
+  }
+
+  /* Grid */
+  .courses-section {
+    padding: 32px 16px;
+  }
+
+  .courses-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  /* Map */
+  .map-section {
+    padding: 40px 16px;
+  }
+
+  #main-map {
+    height: 320px;
+  }
+
+  /* Modal */
+  .modal-overlay {
+    padding: 0;
+    align-items: flex-end;
+  }
+
+  .modal {
+    border-radius: 20px 20px 0 0;
+    max-height: 92vh;
+  }
+
+  .modal-body {
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  .modal-info {
+    padding: 24px 20px;
+  }
+
+  .modal-media {
+    width: 100%;
+    border-left: none;
+    border-top: 1px solid #E2E8F0;
+    height: 280px;
+  }
+
+  .modal-map-wrap {
+    width: 100%;
+    height: 100%;
+  }
+
+  .modal-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .modal-title {
+    font-size: 1.35rem;
+  }
+
+  /* Lightbox */
+  .lightbox-prev { left: 10px; }
+  .lightbox-next { right: 10px; }
+
+  .lightbox-prev,
+  .lightbox-next {
+    width: 40px;
+    height: 40px;
+    font-size: 1.1rem;
+  }
+
+  /* Footer */
+  .site-footer {
+    padding: 36px 16px;
+  }
+}
+
+/* ---- Small Mobile (≤ 480px) ---- */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.7rem;
+  }
+
+  .modal-stats {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .map-section-header h2 {
+    font-size: 1.4rem;
+  }
+}

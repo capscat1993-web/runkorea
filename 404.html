@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>페이지를 찾을 수 없습니다 — RunKorea</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <style>
+    .err-wrap { min-height: 70vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 48px 24px; text-align: center; }
+    .err-code { font-size: 4rem; font-weight: 900; color: var(--primary); line-height: 1; margin-bottom: 12px; }
+    .err-msg { color: var(--text-mid); margin-bottom: 28px; max-width: 360px; line-height: 1.6; }
+    .err-btn { display: inline-block; padding: 12px 28px; background: var(--primary); color: #fff; font-weight: 700; border-radius: 12px; text-decoration: none; }
+    .err-btn:hover { opacity: 0.92; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><span class="logo-icon">&#9676;</span> RunKorea</a>
+    </div>
+  </header>
+  <main class="err-wrap">
+    <p class="err-code">404</p>
+    <h1 class="err-msg">요청하신 페이지가 없거나 주소가 바뀌었습니다.</h1>
+    <a class="err-btn" href="index.html">홈으로 돌아가기</a>
+  </main>
+</body>
+</html>

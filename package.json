@@ -1,0 +1,11 @@
+{
+  "name": "runkorea",
+  "private": true,
+  "scripts": {
+    "config": "node scripts/build-config.js",
+    "postinstall": "node scripts/build-config.js"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7"
+  }
+}

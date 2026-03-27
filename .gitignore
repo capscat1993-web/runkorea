@@ -1,0 +1,18 @@
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# RunKorea — API 키는 .env에만 두고, js/config.js는 npm run config 로 생성
+.env
+js/config.js
+
+# Logs
+*.log
+npm-debug.log*
